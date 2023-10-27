@@ -1,0 +1,25 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow-x: hidden;
+    
+}
+
+
+
+.container {
+    background-color: #a96262;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.bottle {
+    width: 200px;
+    height: 540px;
+    background-image: url('assets/04d.60.1.png');
+    background-size: cover;
+    transition: transform 0.3s;
+}
+
